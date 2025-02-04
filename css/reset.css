@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* Define a base para rem */
+}
+
+body {
+  font-family: sans-serif; /* Fonte padrão */
+  line-height: 1.5; /* Melhora a legibilidade */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; /* Remove o peso padrão */
+}
+
+ul, ol {
+  list-style: none; /* Remove os marcadores de lista */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: inherit; /* Herda a cor do elemento pai */
+}
+
+img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+table {
+  border-collapse: collapse; /* Remove espaços entre as células */
+  width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+}
+
+button {
+  cursor: pointer; /* Muda o cursor ao passar sobre botões */
+}
